@@ -1,0 +1,169 @@
+.header{
+    padding: 1rem 5rem 2rem 5rem;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    border-bottom: 0.8px solid #FFFFFF;
+}
+
+.hr{
+    text-align: right;
+}
+
+.sec_head{
+    color: #FFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+}
+
+.registerr{
+    padding: 1em 2em;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 4px;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+    cursor: pointer;
+
+    width: 10em;
+    margin-top: 2em;
+}
+
+.time{
+    color: #FFF;
+    font-family: Unica One;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133%;
+    margin-top: 1em;
+}
+
+.time span{
+    font-size: 24px;
+}
+
+.header section span{
+    color: #D434FE; 
+}
+
+.sec_1{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166%;
+    width: 21em;
+    margin-top: 1em;
+}
+
+.svg{
+    display: flex;
+    justify-content: flex-end;
+}
+
+svg{
+    width: 253px;
+    height: 11.043px;
+    flex-shrink: 0;
+    stroke-width: 5px;
+    stroke: #FF26B9;
+}
+
+.header_sub{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_sub section:first-child{
+    margin-top: 3em;
+}
+
+.sub_1{
+    position: relative;
+}
+
+.image1{
+    position: absolute;
+    opacity: 0.8;
+}
+
+.image3_con{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image3{
+    transform: translate(-150px, 35px);
+}
+
+@media screen and (max-width: 800px) {
+    .hr{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header{
+        padding: 1rem 2rem 2rem 2rem;
+    }
+    .hr{
+        font-size: 16px;
+    }
+
+    .header_sub section:first-child{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0.5em;
+    }
+
+    .image3_con{
+        height: 1em;
+        margin-top: 0;
+    }
+
+    .image3{
+        transform: translate(80px, 15px);
+    }
+
+    .sec_head{
+        font-size: 32px;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .image6{
+        width: 1em;
+        height: 1em;
+    }
+
+    .sec_1{
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .header_sub{
+        flex-direction: column;
+    }
+
+    .sub_1 img{
+        width: 100%;
+    }
+}
+
+
+
+

@@ -1,0 +1,50 @@
+.banner{
+    padding: 2rem 5rem 1rem 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-block-end: 1em;
+    border-bottom: 0.8px solid #FFF;
+}
+
+.banner_p{
+    color: #FFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.banner_p span{
+    color: #D434FE;
+}
+
+.banner_p0{
+    color: #FFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px;
+    width: 35em;
+}
+
+@media screen and (max-width: 500px) {
+   .banner{
+        padding: 2rem 2rem 1rem 2rem;
+        flex-direction: column;
+   } 
+
+   .banner_p{
+        font-size: 20px;
+   }
+
+   .banner_p0{
+        font-size: 13px;
+        width: 23em;
+   }
+
+   .banner0 img:first-child{
+        width: 100%;
+   }
+}

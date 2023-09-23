@@ -1,0 +1,97 @@
+.privacy{
+    padding: 2rem 5rem 1rem 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-block-end: 1em;
+    border-bottom: 0.8px solid #FFF; 
+
+}
+
+.privacy_head{
+    color: #FFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.privacy_head span{
+    color: #D434FE; 
+}
+
+.privacy_p{
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px; /* 196.429% */
+}
+
+.p_s{
+    width: 30em;
+    margin-block: 2em;
+}
+
+.privacy_sub{
+    border-radius: 5px;
+    border: 1px solid #D434FE;
+    background: rgba(217, 217, 217, 0.03);
+    padding: 3em;
+}
+
+.privacy_sub p{
+    color: #FFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 216.4%; /* 30.296px */
+    width: 30em;
+    margin-bottom: 2em;
+}
+
+.privacy_sub h4{
+    color: #D434FE;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 216.4%; /* 34.624px */
+}
+
+.privacy_sec{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2em;
+}
+
+.privacy_sec svg{
+    width: 17px;
+    height: 17px;
+    flex-shrink: 0;
+}
+
+.privacy_read{
+    padding: 1em 2em;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 4px;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+    cursor: pointer;
+    width: 10em;
+}
+
+.privacy_sub2{
+    position: relative;
+}
+
+.privacy_img1{
+    position: absolute;
+}

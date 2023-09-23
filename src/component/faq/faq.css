@@ -1,0 +1,58 @@
+.faq_con{
+    padding: 2rem 5rem 1rem 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-block-end: 1em;
+    border-bottom: 0.8px solid #FFF;
+}
+
+.faq_sub h3{
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 0%; */
+}
+
+.faq_sub h3 span{
+    color: #D434FE;
+}
+
+
+.faq_sub p{
+    color: #FFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27.5px;
+    width: 25em;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+.faq_sub h4{
+    color: #FFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px; /* 196.429% */
+    border-bottom: 2px solid #D434FE;
+    margin-block-start: 1em;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq_sub h4 span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px; /* 137.5% */
+    color: #D434FE;
+}

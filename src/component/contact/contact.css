@@ -1,0 +1,92 @@
+.contact{
+    padding: 2rem 5rem 1rem 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-block-end: 1em;
+    border-bottom: 0.8px solid #FFF;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact_con h3:first-child{
+    color: #D434FE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.contact_con p{
+    color: #FFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 2em;
+}
+
+.contact_con div{
+    display: flex;
+    justify-content: space-between;
+    width: 10em;
+}
+
+.contact_share{
+    color: #D434FE;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.contact_con_1{
+    width: 617px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 2em;
+}
+
+.contact_con_1 h3{
+    color: #D434FE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0.4em;
+}
+
+.contact_con_1 div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.contact_con_1 div input{
+    color: #FFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: transparent;
+    padding: 0.5em;
+    margin-top: 2em;
+    outline: none;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+}
+
+.contact_con_1 div input:last-child{
+    height: 119px;
+    flex-shrink: 0;
+}
