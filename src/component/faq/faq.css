@@ -56,3 +56,14 @@
     line-height: 27.5px; /* 137.5% */
     color: #D434FE;
 }
+
+@media screen and (max-width: 500px) {
+    .faq_con{
+        padding: 2rem 2rem 1rem 2rem; 
+        flex-direction: column-reverse;
+    }
+
+    .faq_img{
+        width: 100%;
+    }
+}

@@ -45,7 +45,7 @@ const Faq = () => {
         </section>
 
         <section>
-            <img src={Image12} alt='hackalton' />
+            <img className='faq_img' src={Image12} alt='hackalton' />
         </section>
     </div>
   )

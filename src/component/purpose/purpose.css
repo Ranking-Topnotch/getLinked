@@ -64,3 +64,27 @@
     width: 10em;
     margin-top: 2em;
 }
+
+@media screen and (max-width: 500px){
+    .purpose_con{
+        padding: 2rem 2rem 1rem 2rem;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .purpose_con section:nth-child(2) h3{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .section_{
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .purpose_img2{
+        width: 100%;
+        transform: translate(5px, 30px)
+    }
+}

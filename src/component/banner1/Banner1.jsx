@@ -21,7 +21,7 @@ const Banner1 = () => {
             </p>
         </section>
 
-        <section>
+        <section className='banner1_img'>
             <img src={Image8} alt='hackalton' />
         </section>
     </div>
